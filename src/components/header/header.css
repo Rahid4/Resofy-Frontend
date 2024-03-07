@@ -1,0 +1,25 @@
+/* profile.css */
+
+/* CSS for hover effect and button box */
+.nav-item .nav-link:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+/* CSS for separating buttons with borders */
+.nav-item:not(:last-child) .nav-link {
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* CSS for enclosing all buttons in one box */
+.nav.flex-column {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* CSS for black text color */
+.nav-item .nav-link span,
+.nav-item .nav-link {
+  color: black;
+}
